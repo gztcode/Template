@@ -3,3 +3,6 @@
 
 ###文件拖放的路径
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates
+
+
+创建完成之后注意要配置一下.pch文件
