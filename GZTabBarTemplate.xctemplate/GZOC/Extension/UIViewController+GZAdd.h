@@ -11,7 +11,7 @@
 #define CELLSTR(Cell) NSStringFromClass([Cell class])
 
 @protocol UITableViewCellDelegate <NSObject>
-
+@optional
 /**
  事件的代理方法
 
@@ -39,7 +39,7 @@
 
 @interface UIViewController (GZAdd)<UITableViewCellDelegate>
 
-@property (nonatomic, weak) UITableView *tableView;
+@property (nonatomic, strong) UITableView *gztableView;
 
 /**
  应用于单一的cell对Model__数据为Key，cell为Value
