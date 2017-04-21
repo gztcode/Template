@@ -12,7 +12,7 @@
 
 
 -(NSString *)description{
-    return [NSString stringWithFormat:@"<%@: %p, %@>",self.class,self,[self getProperties]];
+    return [NSString stringWithFormat:@"<%@: %p, %@>",self.class,self,self.gz_properties]];
 }
 - (NSDictionary *)getProperties{
     unsigned int count;

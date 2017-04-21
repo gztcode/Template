@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (GZDescripion)
+/**
+ *  获取当前类的属性
+ */
+@property (nonatomic, readonly, copy, getter=getProperties) NSDictionary *gz_properties;
 
 @end
