@@ -30,7 +30,7 @@
  @param cellModel Model
  @return 高度
  */
--(CGFloat)modelCellOrHeight:(id)cellModel;
+-(CGFloat)modelCellOrHeight:(id)cellModel cellIndex:(NSIndexPath *)indexPath;
 
 @property (nonatomic, weak) id<UITableViewCellDelegate> delegate;
 

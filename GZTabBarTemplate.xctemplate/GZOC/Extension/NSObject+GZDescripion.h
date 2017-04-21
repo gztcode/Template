@@ -1,14 +1,13 @@
 //
 //  ___FILENAME___
 //  ___PROJECTNAME___
-//  
+//
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  ___FULLUSERNAME___
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ___FILEBASENAME___: UITabBarController
-
+@interface NSObject (GZDescripion)
 
 @end

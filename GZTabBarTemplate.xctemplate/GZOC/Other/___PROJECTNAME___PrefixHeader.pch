@@ -15,6 +15,7 @@
 #import "CommonlyConst.h"
 #import "UIViewController+GZAdd.h"
 #import "KMCGeigerCounter.h"
+#import "NSObject+GZDescripion.h"
 
 #endif
 

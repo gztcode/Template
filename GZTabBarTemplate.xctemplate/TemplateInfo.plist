@@ -46,6 +46,8 @@
 						<string>GZOC/Extension/UIViewController+GZAdd.m</string>
 						<string>GZOC/Extension/UITabBar+GZAdd.h</string>
 						<string>GZOC/Extension/UITabBar+GZAdd.m</string>
+                        <string>GZOC/Extension/NSObject+GZDescripion.h</string>
+                        <string>GZOC/Extension/NSObject+GZDescripion.m</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
@@ -107,6 +109,20 @@
 							<key>Path</key>
 							<string>GZOC/Extension/UITabBar+GZAdd.m</string>
 						</dict>
+                        <key>GZOC/Extension/NSObject+GZDescripion.h</key>
+                        <dict>
+                            <key>Group</key>
+                            <string>Extension</string>
+                            <key>Path</key>
+                            <string>GZOC/Extension/NSObject+GZDescripion.h</string>
+                        </dict>
+                        <key>GZOC/Extension/NSObject+GZDescripion.m</key>
+                        <dict>
+                            <key>Group</key>
+                            <string>Extension</string>
+                            <key>Path</key>
+                            <string>GZOC/Extension/NSObject+GZDescripion.m</string>
+                        </dict>
 						<key>GZOC/Base/GZTabBarController.h</key>
 						<dict>
 							<key>Path</key>
