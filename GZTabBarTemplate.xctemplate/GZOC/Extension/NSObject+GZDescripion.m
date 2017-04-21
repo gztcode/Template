@@ -21,8 +21,11 @@
     for (int i = 0; i < count; i++) {
         objc_property_t property = properties[i];
         const char *cName = property_getName(property);
-        NSString *name = [NSString stringWithCString:cName encoding:NSUTF8StringEncoding];
-        [dicListName setObject:[self valueForKey:name] forKey:name];
+        NSString *key = [NSString stringWithCString:cName encoding:NSUTF8StringEncoding];
+        NSValue *value =[self valueForKeyPath:key];
+        if (value) {
+            [dicListName setObject:value forKey:key];
+        }
     }
     return dicListName.copy;
 }
